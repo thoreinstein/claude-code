@@ -1,6 +1,12 @@
 # Secrets - never commit
 .mcp.json
 
+# Machine-specific settings
+settings.local.json
+
+# Security state files
+security_warnings_state_*.json
+
 # Session/history data - machine-specific
 history.jsonl
 debug/
