@@ -1,0 +1,24 @@
+# Secrets - never commit
+.mcp.json
+
+# Session/history data - machine-specific
+history.jsonl
+debug/
+file-history/
+plans/
+session-env/
+shell-snapshots/
+statsig/
+todos/
+
+# Project-specific settings (contains local paths)
+projects/
+
+# Plugins cache/data
+plugins/
+
+# Internal claude state
+.claude/
+
+# Override global gitignore - we want these in this repo
+!CLAUDE.md
